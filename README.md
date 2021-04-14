@@ -1,24 +1,3 @@
-# Exercise-05d-Lighting
-Exercise for MSCH-C220, 5 April 2021
-
-A demonstration of this exercise is available at [https://youtu.be/MN-i5QDBDcc](https://youtu.be/MN-i5QDBDcc)
-
-The purpose of this exercise is for you to explore 3D lighting and camera movement in Godot. There are many steps, and some of the concepts are a little complicated, so I would recommend that you stop and test frequently. I have tried to be as clear as possible.
-
-This exercise is loosely based on the How to light a 3d scene in Godot (3d tutorial) by GDQuest. The YouTube video is
-[available here](https://www.youtube.com/watch?v=iamttSmxA2I).
-
-
-This exercise is different from the GDQuest tutorial in distinct ways, so please follow the directions I provide. The video may help you to visualize anything you might find confusing, however.
-
---- 
-
-Fork this repository. When that process has completed, make sure that the top of the repository reads [your username]/Exercise-05d-Lighting. Edit the LICENSE and replace BL-MSCH-C220-S21 with your full name. Commit your changes.
-
-Clone the repository to a Local Path on your computer.
-
-Open Godot. Import the project.godot file and open the "Lighting" project.
-
 In World.tscn, I have provided a starting place for the exercise: the scene contains a parent Spatial node (named World), a Position3D node, and a Spatial node (named Pivot). I have also included several files in the Assets folder, which we will use during this exercise.
 
 In the Assets folder, you will find scene.gltf. This is a [3D model of a small cabin](https://sketchfab.com/3d-models/gr-5df64141235040749103749123e43010) created by luyssport and released under a CC Attribution-NonCommerical-ShareAlike license. This is the model we will use for exploring how light sources work in Godot.
